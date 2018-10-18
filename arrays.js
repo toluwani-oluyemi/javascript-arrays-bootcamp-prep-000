@@ -3,6 +3,7 @@ var chocolateBars = [
   ]
   
  function addElementToBeginningofArray(array,element){
-    addElementToBeginningofArray.unshift("Book")
+   
+ }
   }
   destructivelyAddElementToBeginningOfArray
