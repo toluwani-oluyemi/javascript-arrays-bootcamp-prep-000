@@ -27,19 +27,21 @@ function addElementToEndOfArray(array,element)
   }
   
   function destructivelyRemoveElementToEndOfArray(array){
-  array.shift
-  return array
+  array.shift;
+  return array;
   } 
 function removeElementFromBeginningOfArray(array)
 {
-array.slice(1)
-return[...array]
+array.slice(1);
+return[...array];
 }
 function destructivelyRemoveElementFromEndOfArray(array)
 {
-  array.pop()
+  array.pop();
 }
   function removeElementFromEndOfArray(array)
   {
-    array.slice(0, array.length-1)
+    array.slice(0, array.length-1);
+    return [...array]
   }
+  
