@@ -22,5 +22,7 @@ function addElementToEndofArray(array,element)
   }
   function accessElementInArray(array,index) {
     return[element,index]
+  }
+  
     
   }
