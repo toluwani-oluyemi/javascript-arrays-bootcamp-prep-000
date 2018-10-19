@@ -6,6 +6,7 @@ var chocolateBars = [
  {
    var array = [1];
 [element,...array]
+return array
  }
   
  
