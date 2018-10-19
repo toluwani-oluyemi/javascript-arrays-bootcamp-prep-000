@@ -11,7 +11,7 @@ var chocolateBars = [
   array.unshift(element)
   return array
 }
-function addElementToEndofArray(array,element)
+function addElementToEndOfArray(array,element)
  {
    array.push(element)
   return [element,...array]
