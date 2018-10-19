@@ -5,7 +5,7 @@ var chocolateBars = [
  function addElementToBeginningofArray(array,element)
  {
  [element,...array]
- 
+ return addElementToBeginningofArray
 
  }
   
