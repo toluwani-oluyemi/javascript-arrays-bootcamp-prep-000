@@ -11,3 +11,12 @@ var chocolateBars = [
   array.unshift(element)
   return array
 }
+function addElementToEndofArray(array,element)
+ {
+  return [element,...array]
+ }
+  
+  function destructivelyAddElementToEndOfArray(array, element){
+  array.push(element)
+  return array
+  }
