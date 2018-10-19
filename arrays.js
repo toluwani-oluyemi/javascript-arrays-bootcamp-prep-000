@@ -21,8 +21,8 @@ function addElementToEndOfArray(array,element)
   return array
   }
   function accessElementInArray(array,index) {
-   array[index]
-    return[element,index]
+  return array[index]
+  
   }
   
   function destructivelyRemoveElementToEndOfArray(array){
