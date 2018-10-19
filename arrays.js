@@ -14,7 +14,7 @@ return array
 function addElementToEndOfArray(array,element)
  {
    array.push(element)
-  return [array,element]
+  return [...array,element]
  }
   
   function destructivelyAddElementToEndOfArray(array, element){
@@ -30,6 +30,10 @@ function addElementToEndOfArray(array,element)
   array.shift
   return array
   } 
+function removeElementFromBeginningOfArray(array)
+{
+array.slice
+return[...array]
+}
 
- 
   
