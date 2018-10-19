@@ -27,7 +27,7 @@ function addElementToEndOfArray(array,element)
   }
   
   function destructivelyRemoveElementToEndOfArray(array){
-  array.unshift
+  array.shift
   return array
   } 
 
